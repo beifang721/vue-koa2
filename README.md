@@ -1,6 +1,6 @@
 # smile
 
-> A Vue.js project
+> A Vue.js project  YQJ
 
 ## Build Setup
 
