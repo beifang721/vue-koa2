@@ -11,7 +11,7 @@ const userSchema = new Schema({
     password: String,
     createAt: { type: Date, default: Date.now() },
     lastLoginAt: { type: Date, default: Date.now() }
-}, { collection: 'user' })
+}, { collection: 'user' }) //collection:表名字
 
 //每次存储数据时都要执行  加盐加密
 userSchema.pre('save', function (next) {
